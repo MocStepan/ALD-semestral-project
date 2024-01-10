@@ -18,7 +18,7 @@ Hlavní třída `Main` obsahuje logiku pro generování náhodné mapy. Program 
 
 ## Možné měnit
 
-- lze přidat nový obrázek do složky `images`, který bude začínat `image_(index)`, poté stačí v Main.java v metodě createTitles přidat nový Title a určit jeho index a strany např. (pokud to bude L, tak top je 1 a right je 1. Left a bottom je 0)
+- lze přidat nový obrázek do složky `images`, který bude začínat `image_(index)`, poté stačí v `Main.java` v metodě `createTitles` přidat nový `Title` a určit jeho index a strany např. (pokud to bude L, tak top je 1 a right je 1. Left a bottom je 0)
 - lze měnit proměnou `ROWS`, která určuje, kolik bude řádků ve výsledné mapě
 - lze měnit proměnou `COLUMNS`, která určije, kolik bude sloupců ve výsledné mapě
 - lze měnit proměnou `TITLE_SIZE`, ale nedoporuřuji. Proměná určuje velikost inputových obrázků, pokud bude změněna může dojít k zhoršení kvality výsledné mapy
